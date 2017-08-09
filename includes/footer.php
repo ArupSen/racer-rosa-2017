@@ -4,6 +4,11 @@
 
 </div><!-- end of contents -->
 <div id="footer" class="clearfix col-md-12">
+<p>racer rosa by lombardi design ltd</p>
+<p>6-10 central parade, 137 hoe street, london E17 4RT - company reg. no. 7171143</p>
+<p class="enquiries"><span><i class="fa fa-caret-right" aria-hidden="true"></i>enquiries</span><br>
+hello@racerrosabicycles.co.uk<br>
++44(0) 02071 937047 - mob. +44 (0) 77 7293 1543</p>
 </div>
 </div> <!-- end of wrap -->
 <?php
