@@ -7,8 +7,8 @@
 (_) (_)(_)   `\___/'| ,__/'   (____/'`\____)(____/(_)`\__  |(_) (_)(____/
                     | |                              ( )_) |
                     (_)                               \___/'
-Stylesheet for Artisan Cycles Limited
-Date: October 2014
+Stylesheet for Racer Rosa
+Date: September 2017
 Author: Arup Sen
 http://arupdesigns.co.uk
 arup@arupdesigns.co.uk
@@ -49,6 +49,20 @@ q:before, q:after,
 blockquote:before, blockquote:after {
   content: ""; }
 
+/* COLOURS
+Page | Background | Hover
+Home | 9C9DA0 |
+About |
+Bikes |
+Frames | 
+Fitting |
+Wheels | 
+Workshop | 
+Blog |
+Contact |
+
+
+*/
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
 body {
