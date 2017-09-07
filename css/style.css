@@ -50,16 +50,16 @@ blockquote:before, blockquote:after {
   content: ""; }
 
 /* COLOURS
-Page | Background | Hover
-Home | 9C9DA0 |
-About |
-Bikes |
-Frames | 
-Fitting |
-Wheels | 
-Workshop | 
-Blog |
-Contact |
+Page | Background | Hover / stripe
+Home | 9c9da0 | 78797c
+About | 0655a3 | 023380
+Bikes | ffffff | 8e9ba4
+Frames | 6c5635 | 533f24
+Fitting | e37f1c | d96512
+Wheels | 8e0c3a | 750728
+Workshop | 4c6b88 | 37526f
+Blog | f7aec3 | f498b1
+Contact | 027070 | 015757
 
 
 */
