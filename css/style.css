@@ -84,17 +84,13 @@ h1, h2, h3 {
   text-transform: uppercase; }
 
 h1 {
-  font-size: 0;
-  color: #999999; }
-
-h1 img {
-  width: 200px; }
+  font-size: 24px;
+  color: #999999;
+  font-weight: bold;}
 
 h2 {
   font-size: 14px;
-  text-align: right;
   position: relative;
-  bottom: 16px;
   color: #999999; }
 
 h3 {

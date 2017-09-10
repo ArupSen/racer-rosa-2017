@@ -33,6 +33,6 @@ include_once DATAPATH.'meta_tags.php';
         <![endif]-->
 <div id="wrap" class="container">
 <header>
-  <h1>racer rosa<?php img_tag('racerrosa-logo.jpg'); ?></h1>
+  <h1>racer rosa</h1>
   <h2>hand crafted /// made to measure /// custom built</h2>
 </header>
