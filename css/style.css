@@ -165,13 +165,18 @@ div#clear {
 /*footer*/
 #footer {
   color: #FFFFFF;
-  background-color: #5B7E96;
-  font-size: 10px;
+  background-color: #2b2b2b;
+  font-size: 12px;
   text-transform: uppercase;
-  min-height: 44px; }
+  min-height: 44px;
+  font-weight: bold;
+  font-family: 'Oswald';}
   #footer p {
     padding-top: 7px;
-    text-align: center; }
+    text-align: left; }
+  #footer p.enquiries {
+    text-align: right;
+  }
   #footer a {
     text-decoration: none;
     color: #FFFFFF; }
