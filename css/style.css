@@ -33,21 +33,26 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   font-size: 100%;
   font-family: inherit;
   text-align: left;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 a img, :link img, :visited img {
-  border: 0; }
+  border: 0;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 q:before, q:after,
 blockquote:before, blockquote:after {
-  content: ""; }
+  content: "";
+}
 
 /* COLOURS
 Page | Background | Hover / stripe
@@ -74,48 +79,63 @@ body {
   position: relative;
   margin: 0 auto;
   background-color: #FFFFFF;
-  color: #404040; }
+  color: #404040;
+}
 
+  /* different background colours for each page */
+  body#index {
+    background-color: #9c9da0;
+  }
 div#wrap {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 80px;
-  font-size: 11px; }
+  font-size: 11px;
+}
 
 h1, h2, h3 {
   font-family: "Oswald", sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 h1 {
-  font-size: 24px;
-  color: #999999;
+  color: #ffffff;
+  font-size: 26px;
   font-weight: bold;
-  margin-top: 200px;}
+  margin-bottom: -20px;
+  margin-top: 200px;
+}
 
 h2 {
+  color: #ffffff;
   font-size: 14px;
   position: relative;
-  color: #999999; }
+  top: 22px;
+}
 
 h3 {
   color: #5B7E96;
   font-weight: bold;
-  font-size: 11px; }
+  font-size: 11px;
+}
 
 /*content area*/
 div#contents {
-  position: relative; }
+  position: relative;
+}
 
 /*bootstrap overrides*/
 .row {
   margin-left: 0;
-  margin-right: 0; }
+  margin-right: 0;
+}
 
 /*main navbar*/
 nav#navbar {
-  background-color: #999999;
+  background-color: transparent;
   padding: 4px 0px;
-  min-height: 30px; }
+  min-height: 30px;
+}
 ul#ul-main-navbar {
     float: right;
     margin-right: -310px;
@@ -127,29 +147,42 @@ ul#ul-main-navbar li {
     font-size: 14px;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 2px 15px; }
+    padding: 2px 15px;
+}
   ul#ul-main-navbar li a:hover {
+    background: #78797c;
     color: #333333;
-    text-decoration: none; }
+    margin-bottom: -300px;
+    padding-top: 300px;
+    position: relative;
+    text-decoration: none;
+    top: -300px;
+  }
 
 #index #nav-home a, #about #nav-about a, #bikes #nav-bikes a, #frames #nav-frames a, #fitting #nav-fitting a, #wheels #nav-wheels a, #clothing #nav-clothing a, #visits #nav-visits a {
-  color: #333333; }
+  color: #333333;
+}
 
 div#clear {
-  clear: left; }
+  clear: left;
+}
 
 .picture {
-  padding: 0; }
+  padding: 0;
+}
   .picture p {
     font-family: "Oswald", sans-serif;
     font-size: 12px;
-    line-height: 1.2em; }
+    line-height: 1.2em;
+}
 
 .text p {
-  margin: 0 0 1em 15px; }
+  margin: 0 0 1em 15px;
+}
 
 .text h3 {
-  margin: 30px 0 0 15px; }
+  margin: 30px 0 0 15px;
+}
 
 .enquire {
   background-color: #f9babf;
@@ -157,13 +190,16 @@ div#clear {
   box-shadow: 2px 2px 5px #666666;
   border-radius: 1px;
   padding: 0px 12px;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
   .enquire a {
     color: #404040;
     font-family: "Lobster", cursive;
-    font-size: 16px; }
+    font-size: 16px;
+}
   .enquire a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+}
 
 /*footer*/
 #footer {
@@ -173,10 +209,12 @@ div#clear {
   font-size: 12px;
   font-weight: bold;
   min-height: 44px;
-  text-transform: uppercase;}
+  text-transform: uppercase;
+}
   #footer p {
     padding-top: 7px;
-    text-align: left; }
+    text-align: left;
+}
   #footer p.enquiries {
     float: right;
     text-indent: -12px;
@@ -189,9 +227,11 @@ div#clear {
   }
   #footer a {
     text-decoration: none;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+}
   #footer a:hover {
-    color: #333333; }
+    color: #333333;
+}
 i.fa.fa-caret-right {
     font-size: 2.5em;
     position: relative;
@@ -216,41 +256,51 @@ ul.social li {
   font-size: 24px;
   position: absolute;
   bottom: 10px;
-  left: 10px; }
+  left: 10px;
+}
 
 /* about page */
 #about .text p {
   margin-bottom: -1.6em;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
 
 #about .text p.enquire {
-  margin-top: 3em; }
+  margin-top: 3em;
+}
 
 #about #contents {
-  background: #E6E6E6; }
+  background: #E6E6E6;
+}
 
 /* bikes page */
 #bikes #contents {
-  background: #E6E6E6; }
+  background: #E6E6E6;
+}
 
 .row.rides {
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+}
 
 .row.rides p, .row.epoca p, .row.lombardi-bottom p, .row.tommasini-bottom p, .row.tommasini-top p, .row.lombardi-top p, .row.lombardi-top h3 {
-  position: absolute; }
+  position: absolute;
+}
 
 .row.lombardi-top div:first-of-type img {
   top: 115px;
-  position: relative; }
+  position: relative;
+}
 
 .row.lombardi-top div:nth-of-type(2) img, .row.lombardi-top div:nth-of-type(3) img {
   position: relative;
-  top: 185px; }
+  top: 185px;
+}
 
 .lombardi-top .col-md-3.picture p {
   text-transform: uppercase;
   left: 5px;
-  bottom: -105px; }
+  bottom: -105px;
+}
 
 .col-md-3.picture hr {
   border-top: 2px solid #5B7E96;
@@ -260,37 +310,43 @@ ul.social li {
   height: 5px;
   background: #d85e00;
   width: auto;
-  margin-bottom: -31px; }
+  margin-bottom: -31px;
+}
 
 .lombardi-top h3 {
   font-size: 14px;
   color: #666666;
   font-weight: normal;
   right: 0px;
-  top: 33px; }
+  top: 33px;
+}
 
 .lombardi-top .col-md-2.picture p {
   font-size: 14px;
   color: #666666;
   text-transform: uppercase;
   top: 63px;
-  width: 200px; }
+  width: 200px;
+}
 
 #bikes p.enquire {
   text-align: left;
   font-size: 12px;
   font-weight: normal;
   text-transform: lowercase;
-  color: #333; }
+  color: #333;
+}
 
 .lombardi-top .col-md-2 p.enquire {
   top: 140px;
-  width: 100px; }
+  width: 100px;
+}
 
 .racer-rosa-bottom .col-md-4.picture p.enquire {
   position: absolute;
   top: 250px;
-  padding: 0 12px; }
+  padding: 0 12px;
+}
 
 a[href='#top'] {
   position: absolute;
@@ -298,7 +354,8 @@ a[href='#top'] {
   color: #333333;
   font-size: 14px;
   left: 154px;
-  top: 325px; }
+  top: 325px;
+}
 
 .lombardi-top aside {
   font-family: "Lobster", cursive;
@@ -307,84 +364,105 @@ a[href='#top'] {
   position: absolute;
   white-space: nowrap;
   top: 32px;
-  left: 2px; }
+  left: 2px;
+}
 
 .row.lombardi-bottom {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
 .row.lombardi-bottom p {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .row.lombardi-bottom div:first-of-type p {
   color: #fff;
   left: 5px;
-  top: 5px; }
+  top: 5px;
+}
 
 .row.lombardi-bottom .col-md-1 p {
   text-align: right;
   right: 10px;
-  top: -68px; }
+  top: -68px;
+}
 
 .row.rides div:first-of-type p {
   top: 5px;
-  left: 5px; }
+  left: 5px;
+}
 
 .row.rides div:nth-of-type(2) p {
   left: 5px;
-  bottom: 5px; }
+  bottom: 5px;
+}
 
 .row.rides div:nth-of-type(3) p {
   top: 5px;
   right: 5px;
   text-align: right;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .row.epoca {
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+}
   .row.epoca p {
-    top: -50px; }
+    top: -50px;
+}
 
 .row.tommasini-top {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
   .row.tommasini-top div:nth-of-type(1) img, .row.tommasini-top div:nth-of-type(2) img, .row.tommasini-top div:nth-of-type(3) img {
     position: relative;
-    top: 31px; }
+    top: 31px;
+}
 
 .row.tommasini-top p {
   text-align: right;
   position: absolute;
   right: 5px;
-  top: -40px; }
+  top: -40px;
+}
 
 .row.tommasini-bottom {
-  margin-bottom: 65px; }
+  margin-bottom: 65px;
+}
 
 .row.tommasini-bottom div:nth-of-type(3) p {
-  left: 5px; }
+  left: 5px;
+}
 
 .row.tommasini-bottom div:nth-of-type(4) img, .row.tommasini-bottom div:nth-of-type(5) img {
   position: relative;
-  top: 60px; }
+  top: 60px;
+}
 
 .row.racer-rosa-bottom {
-  padding-bottom: 65px; }
+  padding-bottom: 65px;
+}
   .row.racer-rosa-bottom p {
     text-align: right;
-    padding: 5px 5px 0 0; }
+    padding: 5px 5px 0 0;
+}
 
 /* bikes_new page */
 #bikes_new #contents {
-  background: #E6E6E6; }
+  background: #E6E6E6;
+}
 
 .bikes-top p {
   font-family: "Oswald", sans-serif;
   font-size: 14px;
   line-height: 1.2em;
   color: #666;
-  margin: 40px 0 20px 0; }
+  margin: 40px 0 20px 0;
+}
 
 .bikes-top p.enquire {
-  margin: -2px 0 40px 0; }
+  margin: -2px 0 40px 0;
+}
 
 .col-md-6 p.enquire {
   position: relative;
@@ -393,41 +471,51 @@ a[href='#top'] {
 }
 
 .bikes {
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+}
 
 .detail {
-  padding: 0; }
+  padding: 0;
+}
   .detail p {
     font-size: 12px;
     font-family: "Oswald", sans-serif;
     color: #333;
-    padding-left: 5px; }
+    padding-left: 5px;
+}
   .detail img {
     position: relative;
-    bottom: -15px; }
+    bottom: -15px;
+}
 
 .main {
   padding-right: 0;
-  padding-left: 5px; }
+  padding-left: 5px;
+}
 
 /* frames page */
 #frames #contents {
-  background: #E6E6E6; }
+  background: #E6E6E6;
+}
 
 #frames .text {
   padding-top: 25px;
   padding-left: 0;
-  margin-left: -16px; }
+  margin-left: -16px;
+}
 
 #frames .col-md-2 img {
   position: relative;
-  top: 70px; }
+  top: 70px;
+}
 
 img[alt="frame dropouts"] {
-  margin-top: -31px; }
+  margin-top: -31px;
+}
 
 img[alt="frame on bench"] {
-  padding: 20px 0; }
+  padding: 20px 0;
+}
 
 #frames aside p {
   font-family: "Lobster", cursive;
@@ -436,193 +524,236 @@ img[alt="frame on bench"] {
   width: 270px;
   position: absolute;
   left: 75px;
-  top: 550px; }
+  top: 550px;
+}
 
 /* fitting page */
 #fitting h3 {
   color: #184a98;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
 #fitting #contents {
-  background: #E6E6E6; }
+  background: #E6E6E6;
+}
 
 #fitting .picture p {
   position: absolute;
   top: 355px;
   color: #c2c2c2;
   width: 100px;
-  left: 10px; }
+  left: 10px;
+}
 
 /* wheels page */
 #wheels #contents {
-  background: #E6E6E6; }
+  background: #E6E6E6;
+}
 
 #wheels .text p {
-  max-width: 390px; }
+  max-width: 390px;
+}
 
 #wheels h3 {
   color: #006E6E;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
 /* clothing page */
 #clothing aside {
   font-family: "Oswald", sans-serif;
   font-size: 12px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 #clothing .top-row aside {
   position: absolute;
   bottom: -50px;
   left: 30px;
-  z-index: 1; }
+  z-index: 1;
+}
 
 #clothing .col-md-7 h3 {
   position: relative;
   top: 30px;
-  left: 15px; }
+  left: 15px;
+}
 
 #clothing .col-md-7 p {
   position: relative;
   top: 40px;
   left: 15px;
   width: 440px;
-  margin-bottom: -15px; }
+  margin-bottom: -15px;
+}
 
 #clothing .col-md-7 img {
   top: 120px;
   right: -40px;
-  position: relative; }
+  position: relative;
+}
 
 .bottom-row div:nth-of-type(2) img {
-  margin-top: 118px; }
+  margin-top: 118px;
+}
 
 #clothing .bottom-row aside {
-  position: absolute; }
+  position: absolute;
+}
 
 #clothing .bottom-row div.picture:nth-of-type(1) aside {
   top: 420px;
-  left: 30px; }
+  left: 30px;
+}
 
 #clothing .bottom-row div.picture:nth-of-type(2) aside {
   top: 420px;
   color: #ffffff;
-  left: 15px; }
+  left: 15px;
+}
 
 #clothing aside ul li {
   list-style-type: none;
   text-indent: -13px;
-  margin-left: 20px; }
+  margin-left: 20px;
+}
 
 #clothing h3 {
   color: #d75f00;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
 .left-stripe, .right-stripe {
   width: 16px;
   background: #95A9b9;
   min-height: 400px;
   position: absolute;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .left-stripe {
   bottom: 0px;
-  height: 548px; }
+  height: 548px;
+}
 
 .right-stripe {
   top: 0;
   right: 0;
-  height: 615px; }
+  height: 615px;
+}
 
 /* visits page */
 .social-icons {
   position: absolute;
   left: 208px;
-  top: 96px; }
+  top: 96px;
+}
 
 .social-icons img {
   display: inline;
   padding: 5px;
-  width: 40px; }
+  width: 40px;
+}
 
 #visits .picture p {
-  position: absolute; }
+  position: absolute;
+}
 
 p.appointment {
   font-family: "Lobster", cursive;
   color: #ffffff;
   bottom: 15px;
   font-size: 14px;
-  right: 30px; }
+  right: 30px;
+}
 
 p.henry-moore, p.cafe {
   font-size: 12px;
-  left: 5px; }
+  left: 5px;
+}
 
 p.henry-moore {
-  top: 290px; }
+  top: 290px;
+}
 
 p.henry-moore a:hover, p.cafe a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 p.henry-moore a, p.cafe a {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+}
 
 p.cafe {
-  top: 425px; }
+  top: 425px;
+}
 
 address {
   margin: 26px 0 -18px 45px;
-  color: #595959; }
+  color: #595959;
+}
 
 address a {
-  color: #595959; }
+  color: #595959;
+}
 
 address a:hover {
   text-decoration: none;
-  color: red; }
+  color: red;
+}
 
 img[src='./images/visits-map.jpg'] {
   margin-left: 45px;
-  margin-top: 27px; }
+  margin-top: 27px;
+}
 
 div#SkypeButton_Call_artisancycles_1 img {
   position: absolute;
   top: -75px;
-  left: 51px; }
+  left: 51px;
+}
 
 /* small screens and mobiles */
 @media (max-width: 992px) {
   ul#ul-main-navbar li a {
-    padding: 2px 6px; }
+    padding: 2px 6px;
+}
 
   #index #contents p {
-    font-size: 18px; } }
+    font-size: 18px;
+} }
 @media (max-width: 600px) {
   header h2 {
     font-size: 12px;
     text-align: left;
-    padding: 2em 0 0 0; }
+    padding: 2em 0 0 0;
+}
 
   #index #contents p {
     font-size: 12px;
-    bottom: 25px; } }
+    bottom: 25px;
+} }
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /*global rules*/
   #visits div#wrap, #bikes div#wrap {
-    max-width: 931px; }
+    max-width: 931px;
+}
 
   /*navbar*/
   /* frames page */
   img[alt="frame dropouts"] {
-    margin-top: -19px; }
+    margin-top: -19px;
+}
 
   /* clothes page */
   .right-stripe {
-    height: 611px; }
+    height: 611px;
+}
 
   .left-stripe {
-    height: 544px; }
+    height: 544px;
+}
 
   /*content area*/ }
 
