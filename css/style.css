@@ -61,6 +61,9 @@ Workshop | 4c6b88 | 37526f
 Blog | f7aec3 | f498b1
 Contact | 027070 | 015757
 
+Other colours
+social bg - #3877b5
+
 
 */
 /* BG IMAGE PATH url('../images/my_image.gif') */
@@ -74,7 +77,7 @@ body {
   color: #404040; }
 
 div#wrap {
-  max-width: 930px;
+  width: 100%;
   padding-top: 40px;
   padding-bottom: 80px;
   font-size: 11px; }
@@ -86,7 +89,8 @@ h1, h2, h3 {
 h1 {
   font-size: 24px;
   color: #999999;
-  font-weight: bold;}
+  font-weight: bold;
+  margin-top: 200px;}
 
 h2 {
   font-size: 14px;
@@ -112,7 +116,10 @@ nav#navbar {
   background-color: #999999;
   padding: 4px 0px;
   min-height: 30px; }
-
+ul#ul-main-navbar {
+    float: right;
+    margin-right: -310px;
+}
 ul#ul-main-navbar li {
   /* float:left; */ }
   ul#ul-main-navbar li a {
@@ -160,25 +167,48 @@ div#clear {
 
 /*footer*/
 #footer {
-  color: #FFFFFF;
   background-color: #2b2b2b;
+  color: #FFFFFF;
+  font-family: 'Oswald';
   font-size: 12px;
-  text-transform: uppercase;
-  min-height: 44px;
   font-weight: bold;
-  font-family: 'Oswald';}
+  min-height: 44px;
+  text-transform: uppercase;}
   #footer p {
     padding-top: 7px;
     text-align: left; }
   #footer p.enquiries {
-    text-align: right;
+    float: right;
+    text-indent: -12px;
+    top: -60px;
+    position: relative;
+    left: -450px;
+  }
+  #footer p.enquiries span {
+    font-size: 26px;
   }
   #footer a {
     text-decoration: none;
     color: #FFFFFF; }
   #footer a:hover {
     color: #333333; }
-
+i.fa.fa-caret-right {
+    font-size: 2.5em;
+    position: relative;
+    top: 12px;
+    right: 7px;
+}
+/* social icons */
+ul.social {
+  background: #3877b5;
+  float: right;
+  font-size: 14px;
+  height: 140px;
+  width: 140px;
+}
+ul.social li {
+    text-indent: 10px;
+}
 /* home page */
 #index #contents p {
   font-family: "Lobster", cursive;
