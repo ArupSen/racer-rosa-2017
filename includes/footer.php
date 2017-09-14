@@ -7,13 +7,13 @@
   <p>racer rosa bicycles by lombardi design ltd</p>
   <p>6-10 central parade, 137 hoe street, london E17 4RT - company reg. no. 7171143</p>
   <p class="enquiries"><span><i class="fa fa-caret-right" aria-hidden="true"></i>enquiries</span><br>
-  hello@racerrosabicycles.co.uk<br>
+  <a href="mailto:hello@racerrosabicycles.co.uk" title="email us">hello@racerrosabicycles.co.uk</a><br>
   +44(0) 02071 937047 - mob. +44 (0) 77 7293 1543
   </p>
     <ul class="social">
-      <li><i class="fa fa-facebook-square" aria-hidden="true"></i>facebook</li>
-      <li><i class="fa fa-twitter" aria-hidden="true"></i>twitter</li>
-      <li><i class="fa fa-instagram" aria-hidden="true"></i>instagram</li>
+      <li><a href="http://www.facebook.com/pages/London-United-Kingdom/Racer-Rosa-Bicycles/127049790670084" target="_blank" title=""><i class="fa fa-facebook-square" aria-hidden="true"></i>facebook</a></li>
+      <li><a href="http://twitter.com/RacerRosa" target="_blank" title=""><i class="fa fa-twitter" aria-hidden="true"></i>twitter</a></li>
+      <li><a href="https://www.instagram.com/racerrosabicycles/" target="_blank" title=""><i class="fa fa-instagram" aria-hidden="true"></i>instagram</a></li>
     </ul>
 </ul>
 </div>
