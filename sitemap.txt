@@ -1,9 +1,9 @@
 http://racerrosabicycles.co.uk/index.php
-http:///racerrosabicycles.co.uk/about.php
-http:///racerrosabicycles.co.uk/bikes.php
-http:///racerrosabicycles.co.uk/frames.php
-http:///racerrosabicycles.co.uk/fitting.php
-http:///racerrosabicycles.co.uk/wheels.php
-http:///racerrosabicycles.co.uk/workshop.php
-http:///racerrosabicycles.co.uk/blog/
-http:///racerrosabicycles.co.uk/contact.php
+http://racerrosabicycles.co.uk/about.php
+http://racerrosabicycles.co.uk/bikes.php
+http://racerrosabicycles.co.uk/frames.php
+http://racerrosabicycles.co.uk/fitting.php
+http://racerrosabicycles.co.uk/wheels.php
+http://racerrosabicycles.co.uk/workshop.php
+http://racerrosabicycles.co.uk/blog/
+http://racerrosabicycles.co.uk/contact.php
