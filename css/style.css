@@ -86,6 +86,30 @@ body {
   body#index {
     background-color: #9c9da0;
   }
+  body#about {
+    background-color: #0655a3;
+  }
+  body#bikes {
+    background-color: #ffffff;
+  }
+  body#frames {
+    background-color: #6c5635;
+  }
+  body#fitting {
+    background-color: #e37f1c;
+  }
+  body#wheels {
+    background-color: #8e0c3a;
+  }
+  body#workshop {
+    background-color: #4c6b88;
+  }
+  body#blog {
+    background-color: #f7aec3;
+  }
+  body#contact {
+    background-color: #027070;
+  }
 div#wrap {
   width: 100%;
   padding-top: 40px;
@@ -150,17 +174,44 @@ ul#ul-main-navbar li {
     padding: 2px 15px;
 }
   ul#ul-main-navbar li a:hover {
-    background: #78797c;
-    color: #333333;
+    color: #ffffff;
     margin-bottom: -300px;
     padding-top: 300px;
     position: relative;
     text-decoration: none;
-    top: -300px;
+    top: -298px;
+  }
+  #index ul#ul-main-navbar li a:hover, #index #nav-home a {
+    background: #78797c;
+  }
+  #about ul#ul-main-navbar li a:hover, #about #nav-about a {
+    background: #023380;
+  }
+  #frames ul#ul-main-navbar li a:hover, #frames #nav-frames a {
+    background: #533f24;
+  }
+  #fitting ul#ul-main-navbar li a:hover, #fitting #nav-fitting a {
+    background: #d96512;
+  }
+  #wheels ul#ul-main-navbar li a:hover, #wheels #nav-wheels a {
+    background: #750728;
+  }
+  #blog ul#ul-main-navbar li a:hover, #blog #nav-blog a {
+    background: #f498b1;
+  }
+  #workshop ul#ul-main-navbar li a:hover, #workshop #nav-workshop a {
+    background: #37526f;
+  }
+  #contact ul#ul-main-navbar li a:hover, #contact #nav-contact a {
+    background: #015757;
   }
 
-#index #nav-home a, #about #nav-about a, #bikes #nav-bikes a, #frames #nav-frames a, #fitting #nav-fitting a, #wheels #nav-wheels a, #clothing #nav-clothing a, #visits #nav-visits a {
-  color: #333333;
+#index #nav-home a, #about #nav-about a, #bikes #nav-bikes a, #frames #nav-frames a, #fitting #nav-fitting a, #wheels #nav-wheels a, #blog #nav-blog a, #contact #nav-contact a, #workshop #nav-workshop a {
+  margin-bottom: -300px;
+  padding-top: 300px;
+  position: relative;
+  text-decoration: none;
+  top: -298px;
 }
 
 div#clear {

@@ -12,6 +12,7 @@ include_once DATAPATH.'meta_tags.php';
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Racer Rosa Bicycles - <?php echo ${$filename}['title']; ?></title>
 <meta name="description" content="<?php echo ${$filename}['description']; ?>" />
