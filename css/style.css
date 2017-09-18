@@ -25,13 +25,13 @@ small, strike, strong, sub, sup, tt, var,
 dd, dl, dt, li, ol, ul,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
   margin: 0;
   padding: 0;
-  border: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
   text-align: left;
   vertical-align: baseline;
 }
@@ -74,12 +74,12 @@ social bg - #3877b5
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
 body {
-  font-family: "Lato", sans-serif;
-  font-size: 100.01%;
-  position: relative;
-  margin: 0 auto;
   background-color: #FFFFFF;
   color: #404040;
+  font-family: "Lato", sans-serif;
+  font-size: 100.01%;
+  margin: 0 auto;
+  position: relative;
 }
 
   /* different background colours for each page */
@@ -111,10 +111,10 @@ body {
     background-color: #027070;
   }
 div#wrap {
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 80px;
   font-size: 11px;
+  padding-bottom: 80px;
+  padding-top: 40px;
+  width: 100%;
 }
 
 h1, h2, h3 {
@@ -167,11 +167,11 @@ ul#ul-main-navbar {
 ul#ul-main-navbar li {
   /* float:left; */ }
   ul#ul-main-navbar li a {
+    color: #FFFFFF;
     font-family: "Oswald", sans-serif;
     font-size: 14px;
-    color: #FFFFFF;
-    text-transform: uppercase;
     padding: 2px 15px;
+    text-transform: uppercase;
 }
   ul#ul-main-navbar li a:hover {
     color: #ffffff;
@@ -237,11 +237,11 @@ div#clear {
 
 .enquire {
   background-color: #f9babf;
-  width: 100px;
-  box-shadow: 2px 2px 5px #666666;
   border-radius: 1px;
-  padding: 0px 12px;
+  box-shadow: 2px 2px 5px #666666;
   line-height: 1.2em;
+  padding: 0px 12px;
+  width: 100px;
 }
   .enquire a {
     color: #404040;
@@ -264,23 +264,23 @@ div#clear {
 }
   #footer p {
     padding-top: 7px;
+    position: relative;
     text-align: left;
     top: 140px;
-    position: relative;
 }
   #footer p.enquiries {
     float: right;
+    left: -450px;
+    position: relative;
     text-indent: -12px;
     top: 30px;
-    position: relative;
-    left: -450px;
   }
   #footer p.enquiries span {
     font-size: 26px;
   }
   #footer a {
-    text-decoration: none;
     color: #FFFFFF;
+    text-decoration: none;
 }
   #footer a:hover {
     color: #333333;
@@ -288,8 +288,8 @@ div#clear {
 i.fa.fa-caret-right {
     font-size: 2.5em;
     position: relative;
-    top: 12px;
     right: 7px;
+    top: 12px;
 }
 /* social icons */
 ul.social {
@@ -297,8 +297,8 @@ ul.social {
   float: right;
   font-size: 14px;
   height: 160px;
-  width: 160px;
   padding-top: 13px;
+  width: 160px;
 }
 .social i.fa {
     font-size: 2.6em;
@@ -312,18 +312,18 @@ ul.social li {
 }
 /* home page */
 #index #contents p {
-  font-family: "Lobster", cursive;
-  color: #D65f00;
-  font-size: 24px;
-  position: absolute;
   bottom: 10px;
+  color: #D65f00;
+  font-family: "Lobster", cursive;
+  font-size: 24px;
   left: 10px;
+  position: absolute;
 }
 
 /* about page */
 #about .text p {
-  margin-bottom: -1.6em;
   line-height: 1.2em;
+  margin-bottom: -1.6em;
 }
 
 #about .text p.enquire {
@@ -364,38 +364,38 @@ ul.social li {
 }
 
 .col-md-3.picture hr {
-  border-top: 2px solid #5B7E96;
-  border-bottom: 4px solid #7d6755;
-  top: 28px;
-  position: relative;
-  height: 5px;
   background: #d85e00;
-  width: auto;
+  border-bottom: 4px solid #7d6755;
+  border-top: 2px solid #5B7E96;
+  height: 5px;
   margin-bottom: -31px;
+  position: relative;
+  top: 28px;
+  width: auto;
 }
 
 .lombardi-top h3 {
-  font-size: 14px;
   color: #666666;
+  font-size: 14px;
   font-weight: normal;
   right: 0px;
   top: 33px;
 }
 
 .lombardi-top .col-md-2.picture p {
-  font-size: 14px;
   color: #666666;
+  font-size: 14px;
   text-transform: uppercase;
   top: 63px;
   width: 200px;
 }
 
 #bikes p.enquire {
-  text-align: left;
+  color: #333;
   font-size: 12px;
   font-weight: normal;
+  text-align: left;
   text-transform: lowercase;
-  color: #333;
 }
 
 .lombardi-top .col-md-2 p.enquire {
@@ -404,28 +404,28 @@ ul.social li {
 }
 
 .racer-rosa-bottom .col-md-4.picture p.enquire {
+  padding: 0 12px;
   position: absolute;
   top: 250px;
-  padding: 0 12px;
 }
 
 a[href='#top'] {
-  position: absolute;
-  font-family: "Lobster", cursive;
   color: #333333;
+  font-family: "Lobster", cursive;
   font-size: 14px;
   left: 154px;
+  position: absolute;
   top: 325px;
 }
 
 .lombardi-top aside {
+  color: #5B7E96;
   font-family: "Lobster", cursive;
   font-size: 25px;
-  color: #5B7E96;
-  position: absolute;
-  white-space: nowrap;
-  top: 32px;
   left: 2px;
+  position: absolute;
+  top: 32px;
+  white-space: nowrap;
 }
 
 .row.lombardi-bottom {
@@ -443,26 +443,26 @@ a[href='#top'] {
 }
 
 .row.lombardi-bottom .col-md-1 p {
-  text-align: right;
   right: 10px;
+  text-align: right;
   top: -68px;
 }
 
 .row.rides div:first-of-type p {
-  top: 5px;
   left: 5px;
+  top: 5px;
 }
 
 .row.rides div:nth-of-type(2) p {
-  left: 5px;
   bottom: 5px;
+  left: 5px;
 }
 
 .row.rides div:nth-of-type(3) p {
-  top: 5px;
+  color: #ffffff;
   right: 5px;
   text-align: right;
-  color: #ffffff;
+  top: 5px;
 }
 
 .row.epoca {
@@ -481,9 +481,9 @@ a[href='#top'] {
 }
 
 .row.tommasini-top p {
-  text-align: right;
   position: absolute;
   right: 5px;
+  text-align: right;
   top: -40px;
 }
 
@@ -504,8 +504,8 @@ a[href='#top'] {
   padding-bottom: 65px;
 }
   .row.racer-rosa-bottom p {
-    text-align: right;
     padding: 5px 5px 0 0;
+    text-align: right;
 }
 
 /* bikes_new page */
@@ -514,10 +514,10 @@ a[href='#top'] {
 }
 
 .bikes-top p {
+  color: #666;
   font-family: "Oswald", sans-serif;
   font-size: 14px;
   line-height: 1.2em;
-  color: #666;
   margin: 40px 0 20px 0;
 }
 
@@ -526,8 +526,8 @@ a[href='#top'] {
 }
 
 .col-md-6 p.enquire {
-  position: relative;
   left: 345px;
+  position: relative;
   top: 20px;
 }
 
@@ -539,14 +539,14 @@ a[href='#top'] {
   padding: 0;
 }
   .detail p {
-    font-size: 12px;
-    font-family: "Oswald", sans-serif;
     color: #333;
+    font-family: "Oswald", sans-serif;
+    font-size: 12px;
     padding-left: 5px;
 }
   .detail img {
-    position: relative;
     bottom: -15px;
+    position: relative;
 }
 
 .main {
@@ -560,9 +560,9 @@ a[href='#top'] {
 }
 
 #frames .text {
-  padding-top: 25px;
-  padding-left: 0;
   margin-left: -16px;
+  padding-left: 0;
+  padding-top: 25px;
 }
 
 #frames .col-md-2 img {
@@ -579,13 +579,13 @@ img[alt="frame on bench"] {
 }
 
 #frames aside p {
-  font-family: "Lobster", cursive;
   color: #5B7E96;
+  font-family: "Lobster", cursive;
   font-size: 25px;
-  width: 270px;
-  position: absolute;
   left: 75px;
+  position: absolute;
   top: 550px;
+  width: 270px;
 }
 
 /* fitting page */
@@ -599,11 +599,11 @@ img[alt="frame on bench"] {
 }
 
 #fitting .picture p {
+  color: #c2c2c2;
+  left: 10px;
   position: absolute;
   top: 355px;
-  color: #c2c2c2;
   width: 100px;
-  left: 10px;
 }
 
 /* wheels page */
@@ -628,30 +628,30 @@ img[alt="frame on bench"] {
 }
 
 #clothing .top-row aside {
-  position: absolute;
   bottom: -50px;
   left: 30px;
+  position: absolute;
   z-index: 1;
 }
 
 #clothing .col-md-7 h3 {
+  left: 15px;
   position: relative;
   top: 30px;
-  left: 15px;
 }
 
 #clothing .col-md-7 p {
+  left: 15px;
+  margin-bottom: -15px;
   position: relative;
   top: 40px;
-  left: 15px;
   width: 440px;
-  margin-bottom: -15px;
 }
 
 #clothing .col-md-7 img {
-  top: 120px;
-  right: -40px;
   position: relative;
+  right: -40px;
+  top: 120px;
 }
 
 .bottom-row div:nth-of-type(2) img {
@@ -663,20 +663,20 @@ img[alt="frame on bench"] {
 }
 
 #clothing .bottom-row div.picture:nth-of-type(1) aside {
-  top: 420px;
   left: 30px;
+  top: 420px;
 }
 
 #clothing .bottom-row div.picture:nth-of-type(2) aside {
-  top: 420px;
   color: #ffffff;
   left: 15px;
+  top: 420px;
 }
 
 #clothing aside ul li {
   list-style-type: none;
-  text-indent: -13px;
   margin-left: 20px;
+  text-indent: -13px;
 }
 
 #clothing h3 {
@@ -685,10 +685,10 @@ img[alt="frame on bench"] {
 }
 
 .left-stripe, .right-stripe {
-  width: 16px;
   background: #95A9b9;
   min-height: 400px;
   position: absolute;
+  width: 16px;
   z-index: 1;
 }
 
@@ -698,15 +698,15 @@ img[alt="frame on bench"] {
 }
 
 .right-stripe {
-  top: 0;
-  right: 0;
   height: 615px;
+  right: 0;
+  top: 0;
 }
 
 /* visits page */
 .social-icons {
-  position: absolute;
   left: 208px;
+  position: absolute;
   top: 96px;
 }
 
@@ -721,9 +721,9 @@ img[alt="frame on bench"] {
 }
 
 p.appointment {
-  font-family: "Lobster", cursive;
-  color: #ffffff;
   bottom: 15px;
+  color: #ffffff;
+  font-family: "Lobster", cursive;
   font-size: 14px;
   right: 30px;
 }
@@ -769,9 +769,9 @@ img[src='./images/visits-map.jpg'] {
 }
 
 div#SkypeButton_Call_artisancycles_1 img {
+  left: 51px;
   position: absolute;
   top: -75px;
-  left: 51px;
 }
 
 /* small screens and mobiles */
@@ -786,13 +786,13 @@ div#SkypeButton_Call_artisancycles_1 img {
 @media (max-width: 600px) {
   header h2 {
     font-size: 12px;
-    text-align: left;
     padding: 2em 0 0 0;
+    text-align: left;
 }
 
   #index #contents p {
-    font-size: 12px;
     bottom: 25px;
+    font-size: 12px;
 } }
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
