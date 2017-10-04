@@ -173,14 +173,16 @@ ul#ul-main-navbar li {
     padding: 2px 15px;
     text-transform: uppercase;
 }
-  ul#ul-main-navbar li a:hover {
-    color: #ffffff;
-    margin-bottom: -300px;
-    padding-top: 300px;
-    position: relative;
-    text-decoration: none;
-    top: -298px;
-  }
+/*
+ul#ul-main-navbar li a:hover {
+  color: #ffffff;
+  margin-bottom: -300px;
+  padding-top: 300px;
+  position: relative;
+  text-decoration: none;
+  top: -298px;
+}
+*/
   #index ul#ul-main-navbar li a:hover, #index #nav-home a {
     background: #78797c;
   }
@@ -299,6 +301,8 @@ ul.social {
   height: 160px;
   padding-top: 13px;
   width: 160px;
+  position: relative;
+  z-index: 10;
 }
 .social i.fa {
     font-size: 2.6em;

@@ -9,7 +9,7 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
-<div class="">
+<div class="col-md-6 pull-right blurb">
 <h3>MINIMAL AND STYLISH</h3>
 <p>
   Our bikes are designed and built on demand. The frames are hand crafted by
