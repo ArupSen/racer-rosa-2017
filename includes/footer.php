@@ -37,12 +37,14 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 <!-- Histats.com  START (hidden counter)-->
+<!-- commented out due to dodgy scripts loading
 <script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
 <a href="http://www.histats.com" target="_blank" title="myspace tracker" ><script  type="text/javascript" >
 try {Histats.start(1,2719976,4,0,0,0,"");
 Histats.track_hits();} catch(err){};
 </script></a>
 <noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?2719976&101" alt="myspace tracker" border="0"></a></noscript>
+-->
 <!-- Histats.com  END  -->
 </body>
 </html>

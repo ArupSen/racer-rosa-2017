@@ -9,6 +9,13 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-3 col-xs-12">
+<?php
+img_tag('example_pic.jpg');
+?>
+</div>
 <div class="col-md-6 pull-right blurb">
 <h3>MINIMAL AND STYLISH</h3>
 <p>
@@ -34,5 +41,6 @@ navbar();
   project, designed and built to be the companion of a lifetime. >>MORE
 </p>
 </div>
-
+</div> <!-- end of .row -->
+</div> <!-- end of .container-fluid -->
 <?php footer(); ?>
