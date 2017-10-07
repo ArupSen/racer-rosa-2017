@@ -11,7 +11,7 @@
  **/
 function img_tag($src='',$alt='',$class='')
 {
-  echo '<img src="'.IMGPATH.$src.'" alt="'.$alt.'" title="'.$alt.'" class="img-responsive '.$class.'" />';
+  echo '<img src="'.IMGPATH.$src.'" alt="'.$alt.'" title="'.$alt.'" class="img-responsive '.$class.'" />'."\n";
 }
 
 // require the footer partial within a page template
