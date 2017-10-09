@@ -149,11 +149,14 @@ div#contents {
   color: #808080;
   padding-top: 1em;
 }
-.blurb p {
+.blurb p, .blurb div {
   font-size: 18px;
 }
 .blurb span {
   color: #e37f1c;
+}
+span[data-toggle="collapse"] {
+    cursor: pointer;
 }
 
 /*bootstrap overrides*/
