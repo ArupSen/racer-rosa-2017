@@ -16,7 +16,7 @@ navbar();
 img_tag('example_pic.jpg');
 ?>
 </div>
-<div class="col-md-6 pull-right blurb">
+<div class="col-md-5 col-md-offset-3 blurb">
 <h3>MINIMAL AND STYLISH</h3>
 <p>
   Our bikes are designed and built on demand. The frames are hand crafted by
@@ -38,7 +38,7 @@ img_tag('example_pic.jpg');
 <h3>MADE TO LAST</h3>
 <p>
   It’s a long term investment. Each bike we design is a completely unique, bespoke
-  project, designed and built to be the companion of a lifetime. >>MORE
+  project, designed and built to be the companion of a lifetime. <span>>>MORE</span>
 </p>
 </div>
 </div> <!-- end of .row -->

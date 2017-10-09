@@ -32,7 +32,6 @@ include_once DATAPATH.'meta_tags.php';
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<div id="wrap" class="container">
 <header>
   <h1>racer rosa</h1>
   <h2>hand crafted /// made to measure /// custom built</h2>

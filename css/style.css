@@ -110,12 +110,6 @@ body {
   body#contact {
     background-color: #027070;
   }
-div#wrap {
-  font-size: 11px;
-  padding-bottom: 80px;
-  padding-top: 40px;
-  width: 100%;
-}
 
 h1, h2, h3 {
   font-family: "Oswald", sans-serif;
@@ -138,9 +132,8 @@ h2 {
 }
 
 h3 {
-  color: #5B7E96;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 /*content area*/
@@ -149,21 +142,21 @@ div#contents {
 }
 .blurb {
   background: #fff;
-  color: #999;
-  margin-right: 24.5em;
+  color: #808080;
   padding: 1.5em;
-  width: 44em;
 }
 .blurb h3 {
-  color: #999;
+  color: #808080;
   padding-top: 1em;
+}
+.blurb p {
+  font-size: 18px;
+}
+.blurb span {
+  color: #e37f1c;
 }
 
 /*bootstrap overrides*/
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
 
 /*main navbar*/
 nav#navbar {
@@ -178,7 +171,7 @@ ul#ul-main-navbar {
   ul#ul-main-navbar li a {
     color: #FFFFFF;
     font-family: "Oswald", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     padding: 2px 15px;
     text-transform: uppercase;
 }

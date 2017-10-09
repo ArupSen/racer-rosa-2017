@@ -17,7 +17,6 @@
     </ul>
 </ul>
 </div>
-</div> <!-- end of wrap -->
 <?php
 // latest jquery and bootstrap js from cdn
 // this site's js delivered from the js folder
