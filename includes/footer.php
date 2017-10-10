@@ -26,7 +26,9 @@
 <script src="<?php echo JSPATH.'main.js'; ?>"></script>
 <?php
 //Google Analytics: change UA-XXXXX-X to be your site's ID.
+// Disabled for now
 ?>
+<!--
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -35,6 +37,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+-->
 <!-- Histats.com  START (hidden counter)-->
 <!-- commented out due to dodgy scripts loading
 <script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>

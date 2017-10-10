@@ -22,7 +22,7 @@
                 <li id="nav-fitting"><a href="fitting.php" title="bike fitting">bike fitting</a></li>
                 <li id="nav-wheels"><a href="wheels.php" title="wheel building">wheels</a></li>
                 <li id="nav-workshop"><a href="workshop.php" title="workshop">workshop</a></li>
-                <li><a href="/blog" title="read our blog" target="_blank">blog</a></li>
+                <li id="nav-blog"><a href="blog.php" title="read our blog">blog</a></li>
                 <li id="nav-contact"><a href="contact.php" title="contact">contact us</a></li>
             </ul>
         </div>

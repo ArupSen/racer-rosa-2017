@@ -21,11 +21,12 @@ include_once DATAPATH.'meta_tags.php';
 // Google web fonts Lato, Lobster and Oswald regular
 // Fontawesome and Bootstrap via bootstrapcdn which should leverage browser caching
 ?>
-<link href='http://fonts.googleapis.com/css?family=Lato|Lobster|Oswald:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato|Oswald:400,700' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
-<link rel="shortcut icon" href="<?php echo IMGPATH.'favicon.ico'; ?>" type="image/x-icon" />
+<!--
+<link rel="shortcut icon" href="<?php echo IMGPATH.'favicon.ico'; ?>" type="image/x-icon" />-->
 
 </head>
 <body id="<?php echo strtolower($filename); ?>">
