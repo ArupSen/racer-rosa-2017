@@ -286,14 +286,32 @@ ul.social {
     font-size: 2.6em;
     margin-right: 8px;
   }
-.social li a {
-    font-size: 1.2em;
-}
 ul.social li {
     text-indent: 10px;
 }
+ul.social li a {
+  color: #7dadd3;
+}
 /* home page */
-
+#index .col-md-3 .col-md-6 {
+    border: 1px solid cornflowerblue;
+    min-height: 249px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #177ab8;
+}
+.session-date {
+    background: #eb7d00;
+    min-height: 498px;
+    font-family: 'Oswald';
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 /* about page */
 
 /* bikes page */

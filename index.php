@@ -13,7 +13,7 @@ navbar();
       img_tag('example_pic.jpg');
       ?>
     </div>
-    <div class="col-md-3 col-xs-12">
+    <div class="col-md-3 col-xs-12 col-md-offset-3">
       <div class="row">
         <div class="col-md-6">
           <ul class="social">
@@ -22,7 +22,7 @@ navbar();
             <li><a href="https://www.instagram.com/racerrosabicycles/" target="_blank" title=""><i class="fa fa-instagram" aria-hidden="true"></i>instagram</a></li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 news">
          <p>
           news:<br>
           new showroom<br>
@@ -37,18 +37,18 @@ navbar();
           ?>
           <p>>> more</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 campagnolo">
           <p>officially recognised</p>
           <?php
-          img_tag('campagnolo');
+          img_tag('campagnolo.jpg');
           ?>
           <p>pro-shop</p>
           <p>>> more</p>
         </div>
       </div>
     </div>
-<div class="col-md-3 col-xs-12">
-  <h2>why do i get numb hands</h2>
+<div class="col-md-3 col-xs-12 session-date">
+  <p>why do i get numb hands</p>
 <i class="fa fa-caret-right" aria-hidden="true"></i>
 <p>bio mechanic bike fitting <br> next sessions: 7 oct 2017 <br> >> more</p>
 </div>
