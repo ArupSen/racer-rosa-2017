@@ -3,13 +3,13 @@
 ?>
 <div class="container-fluid">
   <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-5 col-md-4">
       <header>
         <h1>racer rosa</h1>
         <h2>hand crafted /// made to measure /// custom built</h2>
       </header>
       </div>
-      <div class="col-md-6">
+      <div class="col-lg-7 col-md-8">
       <nav id="navbar" class="navbar-default" role="navigation">
               <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
@@ -38,5 +38,4 @@
       </div>
   </div>
 </div>
-<div id="clear"></div>
 <div id="contents">
