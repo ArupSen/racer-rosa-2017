@@ -48,8 +48,10 @@ navbar();
       </div>
     </div>
 <div class="col-md-3 col-xs-12 session-date">
-  <p>why do i get numb hands</p>
-<i class="fa fa-caret-right" aria-hidden="true"></i>
+  <p>why do i get sore knees</p>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/euLwtcYDZ58"  allowfullscreen></iframe>
+</div>
 <p>bio mechanic bike fitting <br> next sessions: 7 oct 2017 <br> >> more</p>
 </div>
   </div><!-- end .row -->
