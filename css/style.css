@@ -319,6 +319,9 @@ ul.social li a {
 #bikes ul#ul-main-navbar #nav-bikes a {
   color: #596974;
 }
+table tr td:first-of-type {
+  font-weight: bold;
+}
 
 /* frames page */
 
