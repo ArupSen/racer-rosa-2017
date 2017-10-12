@@ -181,6 +181,9 @@ nav#navbar {
   #about ul#ul-main-navbar li a:hover, #about #nav-about a {
     background: #023380;
   }
+  #bikes ul#ul-main-navbar li a:hover, #bikes #nav-bikes a {
+    background: #8d9aa3;
+  }
   #frames ul#ul-main-navbar li a:hover, #frames #nav-frames a {
     background: #533f24;
   }
@@ -307,6 +310,15 @@ ul.social li a {
 /* about page */
 
 /* bikes page */
+#bikes h1, #bikes h2 {
+  color: #425968;
+}
+#bikes ul#ul-main-navbar li a {
+  color: #a0acb4;
+}
+#bikes ul#ul-main-navbar #nav-bikes a {
+  color: #596974;
+}
 
 /* frames page */
 
