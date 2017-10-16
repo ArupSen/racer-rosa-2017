@@ -329,6 +329,11 @@ table tr td:first-of-type {
 
 /* wheels page */
 
+/* contact page */
+.ddfmwrap {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
 /* Breakpoints as defaults on Bootstrap */
 
 /* Small devices (tablets, 768px and up) */

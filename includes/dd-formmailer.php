@@ -514,8 +514,8 @@ function ddfm_gen_text($item) {
   $req_text = (($show_required) && ($item['req'] == 'true')) ? '<span class="required">' . DDFM_REQUIREDTAG . '</span> ' : '';
 
   $gen = "";
-  $gen .= '<p class="fieldwrap"><label for="' . $item['fieldname'] . '">' . $req_text . $item['label'] . '</label>';
-  $gen .= '<input class="' . $item['class'] . '" type="text" name="' . $item['fieldname'] . '" id="' . $item['fieldname'] . '" value="';
+  $gen .= '<p class="form-group row"><label for="' . $item['fieldname'] . '" class="col-xs-2">' . $req_text . $item['label'] . '</label>';
+  $gen .= '<input class=col-xs-9 "' . $item['class'] . '" type="text" name="' . $item['fieldname'] . '" id="' . $item['fieldname'] . '" value="';
 
   if ($form_submitted) {
     $gen .= ddfm_bsafe($form_input[$item['fieldname']]);
@@ -539,14 +539,14 @@ function ddfm_gen_password($item) {
   $req_text = (($show_required) && $item['req'] == 'true') ? '<span class="required">' . DDFM_REQUIREDTAG . '</span> ' : '';
 
   $gen = "";
-  $gen .= '<p class="fieldwrap"><label for="' . $item['fieldname'] . '">' . $req_text . $item['label'] . '</label>' . "\n";
+  $gen .= '<p class="form-group row"><label for="' . $item['fieldname'] . '" class="col-xs-2">' . $req_text . $item['label'] . '</label>' . "\n";
   $gen .= '<input class="' . $item['class'] . '" type="password" name="' . $item['fieldname'] . '" id="' . $item['fieldname'] . '" value="';
   $gen .= '" /></p>' . "\n\n";
 
   if ($item['confirm'] == 'true') {
 
     // Duplicate field (add 'c' to end)
-    $gen .= '<p class="fieldwrap"><label for="' . $item['fieldname'] . 'c">' . $req_text . DDFM_CONFIRMPASS . ' ' . $item['label'] . '</label>' . "\n";
+    $gen .= '<p class="form-group row"><label for="' . $item['fieldname'] . 'c">' . $req_text . DDFM_CONFIRMPASS . ' ' . $item['label'] . '</label>' . "\n";
     $gen .= '<input class="' . $item['class'] . '" type="password" name="' . $item['fieldname'] . 'c" id="' . $item['fieldname'] . 'c" value="';
     $gen .= '" /></p>' . "\n\n";
 
@@ -566,7 +566,7 @@ function ddfm_gen_textarea($item) {
   $req_text = (($show_required) && $item['req'] == 'true') ? '<span class="required">' . DDFM_REQUIREDTAG . '</span> ' : '';
 
   $gen = "";
-  $gen .= '<p class="fieldwrap"><label for="' . $item['fieldname'] . '">' . $req_text . $item['label'] . '</label>' . "\n";
+  $gen .= '<p class="form-group row"><label for="' . $item['fieldname'] . '" class="col-xs-2">' . $req_text . $item['label'] . '</label>' . "\n";
   $gen .= '<textarea class="' . $item['class'] . '" name="' . $item['fieldname'] . '" cols="20" rows="' . $item['rows'] . '" id="' . $item['fieldname'] . '">';
 
   if ($form_submitted) {
@@ -591,8 +591,8 @@ function ddfm_gen_widetextarea($item) {
   $req_text = (($show_required) && $item['req'] == 'true') ? '<span class="required">' . DDFM_REQUIREDTAG . '</span> ' : '';
 
   $gen = "";
-  $gen .= '<p class="fieldwrap"><label for="' . $item['fieldname'] . '" class="fmtextlblwide">' . $req_text . $item['label'] . '</label>' . "\n";
-  $gen .= '<textarea class="' . $item['class'] . '" name="' . $item['fieldname'] . '" cols="20" rows="' . $item['rows'] . '" id="' . $item['fieldname'] . '">';
+  $gen .= '<p class="form-group row"><label for="' . $item['fieldname'] . '" class="fmtextlblwide col-xs-2">' . $req_text . $item['label'] . '</label>' . "\n";
+  $gen .= '<textarea class="col-xs-9 ' . $item['class'] . '" name="' . $item['fieldname'] . '" cols="20" rows="' . $item['rows'] . '" id="' . $item['fieldname'] . '">';
 
   if ($form_submitted) {
     $gen .= ddfm_bsafe($form_input[$item['fieldname']]);
@@ -620,7 +620,7 @@ function ddfm_gen_verify($item) {
   $gen = "";
 
   if (ddfm_check_gd_support()) {
-    $gen .= '<p class="fieldwrap"><label for="fm_verify">' . $req_text . $item['label'] . '</label>' . "\n";
+    $gen .= '<p class="form-group row"><label for="fm_verify" class="col-xs-2">' . $req_text . $item['label'] . '</label>' . "\n";
     $gen .= '<input class="'. $item['class'] . '" type="text" name="fm_verify" id="fm_verify" />' . "\n";
     $gen .= '<img src="' . $script_path . '?v=1" alt="' . $item['label'] . '" title="' . $item['label'] . '" />';
     $gen .= '</p>' . "\n\n";
@@ -636,7 +636,7 @@ function ddfm_gen_fullblock($item) {
 
   $gen = "";
 
-  $gen .= '<div class="' . $item['class'] . '"><p class="fieldwrap">' . "\n";
+  $gen .= '<div class="' . $item['class'] . '"><p class="form-group row">' . "\n";
   $gen .= $item['text'] . "\n";
   $gen .= '</p></div>' . "\n\n";
 
@@ -650,7 +650,7 @@ function ddfm_gen_halfblock($item) {
 
   $gen = "";
 
-  $gen .= '<div class="' . $item['class'] . '"><p class="fieldwrap">' . "\n";
+  $gen .= '<div class="' . $item['class'] . '"><p class="form-group row">' . "\n";
   $gen .= $item['text'] . "\n";
   $gen .= '</p></div>' . "\n\n";
 
@@ -693,7 +693,7 @@ function ddfm_gen_checkbox($item) {
 
   $gen = "";
 
-  $gen .= '<p class="fieldwrap"><label>' . $item['label'] . '</label><div class="' . $item['class'] . '">' . "\n";
+  $gen .= '<p class="form-group row"><label>' . $item['label'] . '</label><div class="' . $item['class'] . '">' . "\n";
 
   $data = explode(",", trim($item['data']));
 
@@ -734,7 +734,7 @@ function ddfm_gen_radio($item) {
 
   $gen = "";
 
-  $gen .= '<p class="fieldwrap"><label>' . $req_text . $item['label'] . '</label><div class="' . $item['class'] . '">' . "\n";
+  $gen .= '<p class="form-group row"><label>' . $req_text . $item['label'] . '</label><div class="' . $item['class'] . '">' . "\n";
 
   $c = 1;
 
@@ -778,7 +778,7 @@ function ddfm_gen_select($item) {
 
   $gen = "";
 
-  $gen .= '<p class="fieldwrap"><label>' . $req_text . $item['label'] . '</label><select class="' . $item['class'] . '" name="' . $item['fieldname'];
+  $gen .= '<p class="form-group row"><label>' . $req_text . $item['label'] . '</label><select class="' . $item['class'] . '" name="' . $item['fieldname'];
 
   if ($item['multi'] == 'true') {
     $gen .= '[]';
@@ -859,7 +859,7 @@ function ddfm_gen_file($item) {
 
   $gen = "";
 
-  $gen .= '<p class="fieldwrap"><label for="' . $item['fieldname'] . '">' . $req_text . $item['label'] . '</label>' . "\n";
+  $gen .= '<p class="form-group row"><label for="' . $item['fieldname'] . '">' . $req_text . $item['label'] . '</label>' . "\n";
   $gen .= '<input class="' . $item['class'] . '" type="file" name="' . $item['fieldname'] . '" id="' . $item['fieldname'] . '" ';
   $gen .= ' /></p>' . "\n\n";
 
@@ -877,7 +877,7 @@ function ddfm_gen_selrecip($item) {
 
   $gen = "";
 
-  $gen .= '<p class="fieldwrap"><label>' . $req_text . $item['label'] . '</label><select class="' . $item['class'] . '" name="fm_selrecip">' . "\n";
+  $gen .= '<p class="form-group row"><label>' . $req_text . $item['label'] . '</label><select class="' . $item['class'] . '" name="fm_selrecip">' . "\n";
 
 
   $data = explode(",", trim($item['data']));
