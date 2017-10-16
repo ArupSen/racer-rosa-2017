@@ -14,15 +14,15 @@ navbar();
     <div class="col-lg-7 col-lg-offset-1">
       <?php img_tag('bikes2.jpg'); ?>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 bike-text">
       <h3>JON</h3>
     <p>Our bikes are designed and built on demand. The <br>
     frames are hand crafted by our master frame builders in <br>
     Steel, Aluminium, Carbon Fibre and Titanium.<br>
-    <span>&gt;&gt;MORE</span></p>
+    <span data-toggle="collapse" data-target="#collapse1">&gt;&gt;MORE</span></p>
     </div>
   </div>
-  <div class="row">
+  <div class="row collapse bike-details" id="collapse1">
     <div class="col-lg-7 col-lg-offset-1">
       <table class="table table-striped text-uppercase table-condensed">
       <tr><td>frame</td><td>steel columbus</td></tr>
@@ -38,7 +38,11 @@ navbar();
     <p>Our bikes are designed and built on demand. The <br>
     frames are hand crafted by our master frame builders in <br>
     Steel, Aluminium, Carbon Fibre and Titanium.<br>
-    <span>&gt;&gt;MORE</span></p>
+    </p>
+    <p>Our bikes are designed and built on demand. The <br>
+    frames are hand crafted by our master frame builders in <br>
+    Steel, Aluminium, Carbon Fibre and Titanium.<br>
+    </p>
     </div>
 <div class="row">
   <div class="col-lg-7 col-lg-offset-1">

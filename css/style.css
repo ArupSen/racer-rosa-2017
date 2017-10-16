@@ -148,7 +148,7 @@ div#contents {
 .blurb p, .blurb div {
   font-size: 18px;
 }
-.blurb span {
+.blurb span, .bike-text span {
   color: #e37f1c;
 }
 span[data-toggle="collapse"] {
