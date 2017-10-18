@@ -237,13 +237,8 @@ footer {
   font-family: 'Oswald';
   font-size: 18px;
   font-weight: bold;
-  min-height: 44px;
+  min-height: 20em;
   text-transform: uppercase;
-}
-  footer p {
-    padding-top: 7px;
-    position: relative;
-    text-align: left;
 }
   footer p.enquiries {
     padding-top: 63px;
@@ -251,6 +246,9 @@ footer {
   footer .col-md-6 p {
     position: relative;
     bottom: -121px;
+  }
+  footer .col-xs-8 p {
+    bottom: -50px;
   }
   footer p.enquiries span {
     font-size: 26px;
@@ -266,16 +264,23 @@ footer {
 footer .col-md-2 {
     padding-right: 0;
 }
+
 .enquiries i.fa.fa-caret-right {
     font-size: 2.5em;
     position: relative;
     right: 7px;
     top: 12px;
 }
+footer .col-xs-8, footer .col-xs-4 {
+    font-size: 0.9em;
+}
 /* social icons */
-ul.social {
+ul.social, .social-fill {
   background: #3877b5;
   padding: 13px 10px;
+}
+.social-fill {
+  padding-bottom: 62px;
 }
 .social i.fa {
     font-size: 2.6em;
@@ -286,6 +291,10 @@ ul.social li {
 }
 ul.social li a {
   color: #7dadd3;
+}
+.col-xs-4 .social {
+  margin-left: -15px;
+  padding-bottom: 50px;
 }
 /* home page */
 #index .col-md-3 .col-md-6 {
