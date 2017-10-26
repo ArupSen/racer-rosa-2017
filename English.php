@@ -14,7 +14,8 @@ define('DDFM_CONFIRMPASS', 'Confirm');
 
 define('DDFM_REQUIREDTAG', '*');
 
-define('DDFM_ERRORMSG', 'Errors!');
+define('DDFM_ERRORMSG', 'OOOPS.... SOMETHING MISSING,
+     PLEASE FILL ALL THE FIELDS BELOW');
 
 define('DDFM_MAXCHARLIMIT', 'character limit for');
 

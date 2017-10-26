@@ -346,6 +346,12 @@ table tr td:first-of-type {
     font-family: 'Oswald';
     text-transform: uppercase;
 }
+.ddfmerrors, .errorlist {
+    background: pink;
+    padding: 5px 10px;
+    max-width: 93.45%;
+    margin-bottom: 10px;
+}
 /* Breakpoints as defaults on Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
