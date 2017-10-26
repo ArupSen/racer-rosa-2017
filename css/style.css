@@ -334,6 +334,10 @@ ul.social li a {
 table tr td:first-of-type {
   font-weight: bold;
 }
+.col-lg-4.extra-bike-text {
+    position: relative;
+    top: -240px;
+}
 
 /* frames page */
 

@@ -12,7 +12,7 @@ navbar();
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-7 col-lg-offset-1">
-      <?php img_tag('bikes2.jpg'); ?>
+      <?php img_tag('bikes1.jpg'); ?>
     </div>
     <div class="col-lg-4 bike-text">
       <h3>JON</h3>
@@ -34,7 +34,7 @@ navbar();
       <tr><td>tyres</td><td>vittoria corsa g+</td></tr>
       </table>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 extra-bike-text">
     <p>Our bikes are designed and built on demand. The <br>
     frames are hand crafted by our master frame builders in <br>
     Steel, Aluminium, Carbon Fibre and Titanium.<br>
@@ -44,14 +44,11 @@ navbar();
     Steel, Aluminium, Carbon Fibre and Titanium.<br>
     </p>
     </div>
-<div class="row">
-  <div class="col-lg-7 col-lg-offset-1">
-    <?php img_tag('bikes3.jpg'); ?>
+  <div class="row">
+    <div class="col-lg-7 col-lg-offset-1">
+      <?php img_tag('bikes3.jpg'); ?>
+    </div>
   </div>
-  <div class="col-lg-4">
-    <?php img_tag('bikes4.jpg'); ?>
-  </div>
-</div>
   </div>
 </div>
 
