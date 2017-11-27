@@ -16,7 +16,7 @@ navbar();
       img_tag('example_pic.jpg');
       ?>
     </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
+    <div class="col-lg-3 visible-lg col-sm-12">
       <?php
       img_tag('rr_shop.jpg');
       ?>
