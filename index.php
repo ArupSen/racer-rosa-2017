@@ -8,12 +8,12 @@ navbar();
 ?>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-3 col-xs-12">
+    <div class="col-md-3 col-xs-12 pic">
       <?php
       img_tag('example_pic.jpg');
       ?>
     </div>
-    <div class="col-md-3 col-xs-12">
+    <div class="col-md-3 col-xs-12 pic">
       <?php
       img_tag('rr_shop.jpg');
       ?>

@@ -81,6 +81,9 @@ body {
   margin: 0 auto;
   position: relative;
 }
+.pic {
+  padding: 0;
+}
 
   /* different background colours for each page */
   body#index {
