@@ -322,6 +322,9 @@ ul.social li a {
     font-weight: bold;
     text-transform: uppercase;
 }
+#index footer .social {
+    display: none;
+}
 /* about page */
 
 /* bikes page */
