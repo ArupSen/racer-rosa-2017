@@ -366,6 +366,9 @@ table tr td:first-of-type {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .navbar-nav {
+  margin: 0 0 0 -37px;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
