@@ -248,6 +248,7 @@ footer {
 }
   footer p.enquiries {
     padding-top: 63px;
+    text-align: right;
   }
   footer .col-md-6 p {
     position: relative;
@@ -304,22 +305,24 @@ ul.social li a {
 }
 /* home page */
 #index .col-md-3 .col-md-6 {
+    background-color: #177ab8;
     border: 1px solid cornflowerblue;
-    min-height: 249px;
-    text-transform: uppercase;
     color: #fff;
     font-family: 'Oswald';
     font-size: 20px;
     font-weight: bold;
-    background-color: #177ab8;
+    min-height: 249px;
+    padding: 20px;
+    text-transform: uppercase;
 }
 .session-date {
     background: #eb7d00;
-    min-height: 498px;
-    font-family: 'Oswald';
     color: #fff;
+    font-family: 'Oswald';
     font-size: 20px;
     font-weight: bold;
+    min-height: 498px;
+    padding: 20px;
     text-transform: uppercase;
 }
 #index footer .social {
