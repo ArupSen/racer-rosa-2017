@@ -114,6 +114,10 @@ body {
     background-color: #027070;
   }
 
+  /* uniform height of white box 'blurb' on some pages */
+  #about .row, #bikes .row, #frames .row, #fitting .row, #wheels .row, #workshop .row, #blog .row, #contact .row {
+    display: flex;
+  }
 h1, h2, h3 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
