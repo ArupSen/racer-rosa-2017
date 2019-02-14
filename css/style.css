@@ -372,6 +372,14 @@ table tr td:first-of-type {
     max-width: 93.45%;
     margin-bottom: 10px;
 }
+input[type=submit] {
+  background: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+input[type="submit"]:hover {
+    color: black;
+}
 /* Breakpoints as defaults on Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
