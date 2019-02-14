@@ -380,6 +380,9 @@ input[type=submit] {
 input[type="submit"]:hover {
     color: black;
 }
+#contact .blurb {
+  padding: 20px;
+}
 /* Breakpoints as defaults on Bootstrap */
 
 /* Small devices (tablets, 768px and up) */

@@ -65,7 +65,7 @@ $form_struct = '
   type=text|class=fmtext|label=Email|fieldname=fm_email|max=100|req=true|ver=email
   type=text|class=fmtext|label=Subject|fieldname=fm_subject|max=100|req=true
   type=verify|class=fmverify|label=Verify
-  type=widetextarea|class=fmtextwide|label=Message|fieldname=fm_message|max=9000|rows=10|req=true
+  type=widetextarea|class=fmtextwide|label=Message|fieldname=fm_message|max=9000|rows=8|req=true
 ';
 
 // MANUAL FORM CODE
