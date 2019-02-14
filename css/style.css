@@ -158,6 +158,9 @@ div#contents {
 .blurb span, .bike-text span {
   color: #e37f1c;
 }
+.blurb span {
+  float: right;
+}
 span[data-toggle="collapse"] {
     cursor: pointer;
 }
