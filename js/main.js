@@ -14,11 +14,17 @@
     document.getElementsByClassName('blurb')[0].style.overflowY = 'scroll';
   });
   // choose a random YouTube video for the video square
-  var vidList = ['X19ovl-PiYk','kfV2hxl0iI8','ScPIwWyM-cs','euLwtcYDZ58','xNnQlPUhVRc','qbLkDdttQs0'];
-  var vidTitle = ['fitting', 'why made to measure', 'why a steel bike', 'why do I get sore knees', 'why does my saddle hurt', 'why do I get numb hands'];
+  var videos = [
+  {id:'X19ovl-PiYk', title:'fitting'},
+  {id:'kfV2hxl0iI8', title:'why made to measure?'},
+  {id:'ScPIwWyM-cs', title:'why a steel bike?'},
+  {id:'euLwtcYDZ58', title:'why do I get sore knees?'},
+  {id:'xNnQlPUhVRc', title:'why does my saddle hurt?'},
+  {id:'qbLkDdttQs0', title:'why do I get numb hands?'}
+  ];
   var youTubeURL = "https://www.youtube.com/embed/";
-  var randomNumber = Math.floor(Math.random() * vidList.length);
-  $('iframe')[0].src = youTubeURL + vidList[randomNumber];
-  $('.session-date p').eq(0).text(vidTitle[randomNumber]);
+  var randomNumber = Math.floor(Math.random() * videos.length);
+  $('iframe')[0].src = youTubeURL + videos[randomNumber].id;
+  $('.session-date p').eq(0).text(videos[randomNumber].title);
 
 }());
