@@ -24,7 +24,9 @@
   ];
   var youTubeURL = "https://www.youtube.com/embed/";
   var randomNumber = Math.floor(Math.random() * videos.length);
-  $('iframe')[0].src = youTubeURL + videos[randomNumber].id;
-  $('.session-date p').eq(0).text(videos[randomNumber].title);
+  if ($('#index').length > 0) {
+    $('#index iframe')[0].src = youTubeURL + videos[randomNumber].id;
+    $('#index .session-date p').eq(0).text(videos[randomNumber].title);
+  }
 
 }());

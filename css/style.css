@@ -115,7 +115,7 @@ body {
   }
 
   /* uniform height of white box 'blurb' on some pages */
-  #about .row, #bikes .row, #frames .row, #fitting .row, #wheels .row, #workshop .row, #blog .row, #contact .row {
+  #about .row, #frames .row, #fitting .row, #wheels .row, #workshop .row, #blog .row, #contact .row {
     display: flex;
   }
 h1, h2, h3 {
